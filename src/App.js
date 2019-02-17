@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            this is CI/CD
+            this is CI/CD test Speed
           </p>
           <a
             className="App-link"
