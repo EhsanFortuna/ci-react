@@ -7,3 +7,8 @@ cache:
 script:
   - npm test #Runs Tests
   - npm run build #Creats a production build
+deploy:
+  provider: heroku
+  api_key:
+    secure: "213689db-1a65-4262-881b-dbbaf1f46b0c"
+  app: ci-impl
